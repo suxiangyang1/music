@@ -1,12 +1,12 @@
 <template>
   <div>
-    这是标签一
+    这是标签二
   </div>
 </template>
 
 <script>
 export default {
-  name: 'About',
+  name: 'test',
   data() {
     return {}
   },
@@ -18,4 +18,5 @@ export default {
 }
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+</style>

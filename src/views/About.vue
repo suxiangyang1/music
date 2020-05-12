@@ -1,6 +1,6 @@
 <template>
   <div>
-    这是标签一
+    <van-image width="100" height="100" src="https://img.yzcdn.cn/vant/cat.jpeg" />
   </div>
 </template>
 

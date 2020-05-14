@@ -1,6 +1,7 @@
 <template>
   <div>
-    这是标签二
+    <div class="top">这是标签二</div>
+
   </div>
 </template>
 
@@ -19,4 +20,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.top {
+  margin-top: 130px;
+}
 </style>

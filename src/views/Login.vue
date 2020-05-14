@@ -68,6 +68,7 @@ export default {
           console.log(res)
           if (res.data.code == '200') {
             console.log('成功')
+            this.$router.push('/about')
           }
           if (res.data.code == '502') {
             console.log('密码错误')

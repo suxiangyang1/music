@@ -5,11 +5,23 @@
     </div>
     <div class="padding-left">
       <!-- 内容展示区 -->
-      <van-row v-for="(item, index) in user" :key="index">
-        <van-col span="8" class="imgBox">
-          <img :src="item.coverImgUrl" class="imgBox" />
+      <van-row
+        v-for="(item, index) in user"
+        :key="index"
+      >
+        <van-col
+          span="8"
+          class="imgBox"
+        >
+          <img
+            :src="item.coverImgUrl"
+            class="imgBox"
+          />
         </van-col>
-        <van-col span="16" class="mt">
+        <van-col
+          span="16"
+          class="mt"
+        >
           <van-row>
             {{ item.name }}
           </van-row>
@@ -42,7 +54,7 @@ export default {
 
 <style scoped lang="scss">
 .top-padding {
-  margin: 8px 15px;
+  margin: 8px 5px;
   border-left: 3px solid #d24537;
   padding-left: 5px;
 }

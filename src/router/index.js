@@ -29,6 +29,11 @@ const routes = [
         path: '/test',
         name: 'test',
         component: () => import('../views/test.vue')
+      },
+      {
+        path: '/rankinglist',
+        name: 'RankingList',
+        component: () => import('../views/RankingList.vue')
       }
     ]
   },
@@ -41,6 +46,16 @@ const routes = [
     path: '/mymessage',
     name: 'MyMessage',
     component: () => import('../views/MyMessage.vue')
+  },
+  {
+    path: '/ranking/:id',
+    name: 'Ranking',
+    component: () => import('../views/Ranking.vue')
+  },
+  {
+    path: '/mv/:id',
+    name: 'Mv',
+    component: () => import('../views/Mv.vue')
   }
 ]
 
